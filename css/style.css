@@ -104,8 +104,17 @@ menu a:hover {
   text-decoration: none;
   color: rgb(255, 220, 0);
 }
+ 
+button {
+  background-color:#ff8800;
+  border:1px;
+  border-radius: 5px;
+} 
 
-
+.button_text {
+  
+  color:yellow;
+}
 
 h2:hover {
   animation: changeColor 2s linear;
@@ -383,17 +392,17 @@ header {
 
 @keyframes color-change {
   from {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(85, 0, 255, 0.5);
     text-shadow: darkslateblue;
   }
 
   50% {
-    background-color: #644792;
+    background-color: rgba(170, 0, 255, 0.5);
     text-shadow: darkslateblue;
   }
 
   to {
-    background-color: #ffc400;
+    background-color: rgba(255, 0, 255, 0.5);
   }
 }
 
